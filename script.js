@@ -47,15 +47,17 @@ document.addEventListener("DOMContentLoaded", () => {
         const bookDiv = document.createElement("div");
         bookDiv.classList.add("book");
         bookDiv.innerHTML = `
-            <a href="${bookInfo.infoLink}" target="_blank">
+            <a class="image-a" href="${bookInfo.infoLink}" target="_blank">
                 <img src="${bookInfo.imageLinks?.thumbnail || 'placeholder.jpg'}" alt="Book Cover">
-                <div>               
+            </a>
+            <div>
+                <a href="${bookInfo.infoLink}" target="_blank">
                     <h3>${bookInfo.title}</h3>
                     <p><strong>Author:</strong> ${bookInfo.authors?.join(", ") || "Unknown"}</p>
                     <p><strong>Publisher:</strong> ${bookInfo.publisher || "N/A"}</p>
                     <p><strong>Published Date:</strong> ${bookInfo.publishedDate || "N/A"}</p>
-                </div>
-            </a>
+                </a>
+            </div>
         `;
         return bookDiv;
     }
