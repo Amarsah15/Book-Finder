@@ -63,6 +63,9 @@ document.addEventListener("DOMContentLoaded", () => {
     searchBar.addEventListener("input", () => {
         loadMoreBtn.style.display = "none"
         const query = searchBar.value.toLowerCase();
+        if(query === ""){
+            loadMoreBtn.style.display = "inline"
+        }
         const filteredBooks = initialBooks.filter(book => 
             book.volumeInfo.title.toLowerCase().includes(query) || 
             book.volumeInfo.authors?.some(author => author.toLowerCase().includes(query))
