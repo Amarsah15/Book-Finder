@@ -1,10 +1,10 @@
 # 📚 Book Finder
 
 ## 🌟 Overview
-A simple **Book Finder ** site that fetches books from an API and displays them in a **List/Grid format**. Users can **search, sort, toggle views, and load more books** dynamically. The app is fully **responsive, animated, and user-friendly**.
+A simple **Book Finder** site that fetches books from an API and displays them in a **List/Grid format**. Users can **search, sort, toggle views, and load more books** dynamically. The app is fully **responsive, animated, and user-friendly**.
 
 
-🔗 **Live URL:** [FindMyBooks](https://book-finder.vercel.app/)  
+🔗 **Live URL:** [FindMyBooks](https://book-finder-gilt-sigma.vercel.app/)  
 🔗 **GitHub Repository:** [Books-Listing-WebPage](https://github.com/Amarsah15/Book-Finder)
 
 ---
